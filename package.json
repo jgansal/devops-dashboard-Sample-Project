@@ -1,0 +1,27 @@
+{
+  "name": "devops-dashboard-tic-tac-toe-sample",
+  "version": "1.0.0",
+  "description": "A Tic Tac Toe program written in node for use in the devops dashboard NHH",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "jenkins-mocha": "^3.0.0",
+    "xunit-file": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "test": "mocha tests -R xunit-file"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/driabwb/devops-dashboard-Sample-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/driabwb/devops-dashboard-Sample-Project/issues"
+  },
+  "homepage": "https://github.com/driabwb/devops-dashboard-Sample-Project#readme"
+}
